@@ -1,5 +1,5 @@
 # A CMSI2021 Blog
-A simple Random Blog that use firebase.
+A simple Random Blog that use firebase and react.
 
 link to website:
 https://test-d1156.web.app/
