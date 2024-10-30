@@ -3,7 +3,7 @@ A simple Random Blog that use firebase.
 
 ## Basic Features for the Blog
 
-- User Authentication (Sign Up, Log In, Log Out)
+- User authentication for creating blogs (Sign Up, Log In, Log Out)
 - Create, and read blog posts
 - Firebase as the database
 - Real-time data updates
