@@ -51,8 +51,7 @@ article {
 }
 
 nav {
-  background-color: #81D8BD;
-  font-weight: bolder;
+  background: linear-gradient( rgba(56,215,132,1) 10%, rgba(129,216,189,1) 100%);   font-weight: bolder;
   padding: 0%;
 }
 
