@@ -1,4 +1,4 @@
-import { login, logout, loggedInUserDisplayName } from "../services/authService"
+import { login, logout, loggedInUserDisplayName, loggedInUserPhoto } from "../services/authService"
 
 export function SignIn() {
   return <button onClick={login}>Sign In</button>
@@ -7,7 +7,8 @@ export function SignIn() {
 export function SignOut() {
   return (
     <div>
-      Hello, {loggedInUserDisplayName()}  
+      Hello, {loggedInUserDisplayName()} 
+      <img src={loggedInUserPhoto()} alt="no photo" className="profile-photo"/>
       <button onClick={logout}>Sign Out</button>
     </div>
   )

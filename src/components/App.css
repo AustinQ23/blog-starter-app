@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #D0ECD5;
 }
 
 .App {
@@ -14,7 +15,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #1B2A35;
   color: white;
   grid-column: 1 / span 2;
   padding: 10px 5px;
@@ -37,17 +38,19 @@ nav,
 article {
   height: 100%;
   padding: 10px;
+  background-color: #D0ECD5;
 }
 
 nav {
-  background-color: #dee9ff;
+  background-color: #81D8BD;
+  font-weight: bolder;
+  padding: 0%;
 }
 
 nav p:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-
 article .date {
   font-style: italic;
 }
@@ -56,8 +59,36 @@ article .body {
   white-space: break-spaces;
 }
 
+article .title{
+  font-size: 330%;
+  text-decoration-line: underline;
+}
+
 .error {
   background-color: red;
   color: gold;
   padding: 5px;
+}
+
+.profile-photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+button {
+  background-color: #83fa97;
+  border: none; /* Removes default border */
+  outline: none; /* Removes default outline */
+  border-radius: 4px;      /* Rounds the corners slightly */
+  padding: 8px 16px;       /* Controls the button size */
+  cursor: pointer;         /* Changes cursor to pointer on hover */
+}
+.new-article{
+  width: 100%;
+  padding: 15px;    
+  box-sizing: border-box; /* Include padding and border in the button's total width */     
+}
+button:hover {
+  background-color: #33b249; 
 }
