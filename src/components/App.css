@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -12,11 +13,19 @@ body {
   overflow: scroll;
 }
 
+@font-face {
+  font-family: 'dinasty'; /*a name to be used later*/
+  src: url(DinastyFont.ttf); /* specify format */
+}
+.blog-title{
+  margin-left: 2%;
+  font-family: dinasty;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #1B2A35;
-  color: white;
+  background: linear-gradient(90deg, rgba(27,42,53,1) 10%, rgba(5,194,184,1) 100%);   color: white;
   grid-column: 1 / span 2;
   padding: 10px 5px;
 }
