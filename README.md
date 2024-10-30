@@ -10,5 +10,5 @@ A simple Random Blog that use firebase.
 - Hosting via Firebase Hosting
 
 # Authors
-Quinn Austin
+Quinn Austin, Marcus Razo
 
