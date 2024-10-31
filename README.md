@@ -1,5 +1,8 @@
 # A CMSI2021 Blog
-A simple Random Blog that use firebase.
+A simple Random Blog that use firebase and react.
+
+link to website:
+https://test-d1156.web.app/
 
 ## Basic Features for the Blog
 
@@ -10,5 +13,5 @@ A simple Random Blog that use firebase.
 - Hosting via Firebase Hosting
 
 # Authors
-Quinn Austin
+Quinn Austin, Marcus Razo
 
