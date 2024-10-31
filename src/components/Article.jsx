@@ -4,6 +4,7 @@ export default function Article({ article }) {
     if (!timestamp) return "No date available";
     const date = timestamp.toDate();
     return date.toLocaleDateString("en-US", {
+      weekday: 'long',
       year: 'numeric',
       month: 'long',
       day: 'numeric'
