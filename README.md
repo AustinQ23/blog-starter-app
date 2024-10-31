@@ -6,7 +6,7 @@ https://test-d1156.web.app/
 
 ## Basic Features for the Blog
 
-- User authentication for creating blogs (Sign Up, Log In, Log Out)
+- User authentication for creating blogs (Log In, Log Out)
 - Create, and read blog posts
 - Firebase as the database
 - Real-time data updates
