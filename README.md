@@ -1,4 +1,4 @@
-# A CMSI2021 Blog
+# A CMSI2021 Random Blog
 A simple Random Blog that use firebase and react.
 
 link to website:
