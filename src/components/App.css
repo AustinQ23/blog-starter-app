@@ -18,16 +18,22 @@ body {
   src: url(DinastyFont.ttf); /* specify format */
 }
 .blog-title{
-  margin-left: 2%;
+  margin-left: 20px; /* Adjust this value to control the amount */
+  margin-bottom: 0;
+  margin-top: 0;
   font-family: dinasty;
+  font-size: 210%;
+  line-height: 1.2; /* Adjust for slight vertical movement */
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(90deg, rgba(27,42,53,1) 10%, rgba(5,194,184,1) 100%);   color: white;
+  background: linear-gradient(90deg, rgba(27,42,53,1) 10%, rgba(5,194,184,1) 100%);   
+  color: white;
   grid-column: 1 / span 2;
-  padding: 10px 5px;
+  padding: 5px 5px;
+  font-weight: bold;
 }
 
 form {
@@ -48,13 +54,20 @@ article {
   height: 100%;
   padding: 10px;
   background-color: #D0ECD5;
+  border: 1px solid black;
 }
 
 nav {
-  background: linear-gradient( rgba(56,215,132,1) 10%, rgba(129,216,189,1) 100%);   font-weight: bolder;
-  padding: 0%;
+  background: linear-gradient( rgba(56,215,132,1) 10%, rgba(129,216,189,1) 100%);   
+  font-weight: bolder;
+  padding: 9%;
+  align-self: stretch;
+  padding: 0 10px;
 }
-
+nav p{
+  border-bottom: 2px solid black;
+  width: 100%;
+}
 nav p:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -62,9 +75,13 @@ nav p:hover {
 article .date {
   font-style: italic;
 }
-
+article{
+  overflow: hidden;
+}
 article .body {
-  white-space: break-spaces;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 article .title{
@@ -99,4 +116,17 @@ button {
 }
 button:hover {
   background-color: #33b249; 
+}
+@media (max-width: 800px) {
+  .App {
+    grid-template-columns: 110px auto; /* Narrower nav, wider article */
+  }
+  nav{
+    min-height: 110%;
+
+  }
+  article .title{
+    font-size: 150%;
+    text-decoration-line: underline;
+  }
 }
