@@ -63,6 +63,7 @@ nav {
   padding: 9%;
   align-self: stretch;
   padding: 0 10px;
+  overflow-y: auto;
 }
 nav p{
   border-bottom: 2px solid black;
